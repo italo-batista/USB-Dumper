@@ -8,7 +8,7 @@ import stat
 import Tkinter, tkFileDialog
 from icon import img
 
-USB = 'F:'  # u盘目录,初始设置F：盘用于测试
+USB = 'D:'  # u盘目录,初始设置F：盘用于测试
 SAVE = 'C:/usbCopy'  # 保存目录，默认为C:/usbCopy
 OLD = []  # 保存文件目录，用于判断U盘文件用没有变化
 dict = {'A': 0, 'B': 0, 'C': 0, 'D': 0, 'E': 0, 'F': 0, 'G': 0, 'H': 0, 'I': 0, 'J': 0, 'K': 0, 'L': 0, 'M': 0, 'N': 0,
